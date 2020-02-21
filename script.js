@@ -18,7 +18,7 @@ time.forEach(btn=>{
         }
         else if(btn.id==="shBreak"){
             timer.innerText="05:00";
-            timeCount = 5*60;
+            timeCount = 1*60;
             mode="short";
         }
         else{
@@ -71,6 +71,7 @@ function reset(){
     else{
         timeCount=10*60;
     }
+    start();
 }
 startBtn.addEventListener("click",start);
 resetBtn.addEventListener("click",reset);
