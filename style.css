@@ -1,0 +1,18 @@
+#time>button{
+    position: relative;
+    left: 35%;
+    width: auto;
+}
+#timer{
+    font-size: 50px;
+    position: relative;
+    left: 45.5%;
+}
+#act>button{
+    position: relative;
+    left: 40%;
+    width: 90px;
+}
+body{
+    margin-top: 10%;
+}
